@@ -1,5 +1,13 @@
 # 4640-w7-lab-start-w25
 
-Starter files for the intro to Ansible lab.
+## Generating the aws key
+ssh-keygen -t ed25519 -f ~/.ssh/aws -C "Your comment here"
 
-See D2L for lab instructions
+## Using the existing script to import 
+./import_lab_key ~/.ssh/aws
+
+## Check for syntax errors
+ansible-playbook --syntax-check playbook.yml
+
+## Run the playbook
+ansible-playbook playbook.yml
