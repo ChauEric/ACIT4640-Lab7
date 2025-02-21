@@ -11,3 +11,5 @@ ansible-playbook --syntax-check playbook.yml
 
 ## Run the playbook
 ansible-playbook playbook.yml
+
+![alt text](Ansible-EC2.png)
